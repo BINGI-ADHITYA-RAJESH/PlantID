@@ -8,7 +8,7 @@ import 'package:test/models.dart';
 
 class APIIntegration {
   final String apiKey =
-      'ZOxBs2mM47Kw1l97rPZvbuTaS2TyeeFrUt9Rq65RM9quxRpOqS'; // Replace with your Plant.id API key
+      'Your plant.id API_KEY '; // Replace with your Plant.id API key
 
   Future<List<Plant>?> identifyPlant(String base64Image) async {
     final webScraping = WebScraping();
